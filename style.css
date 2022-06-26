@@ -1,0 +1,21 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 420px));
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.505);
+    padding: 50px;
+
+}
+.card{
+    border: 2px solid #000;
+    margin: 10px;
+    padding: 10px;
+}
+
+#container h1,h2{
+    color: aliceblue;
+    display: inline;
+}
+#container h1{
+    margin: 20px;
+}
